@@ -38,7 +38,9 @@ export default function RootLayout({
             },
           }}
         />
-        {children}
+      <div className="bg-gradient-to-r from-orange-50 via-orange-100 to-orange-200">
+          {children}
+      </div>
       </body>
     </html>
   );
