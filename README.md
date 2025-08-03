@@ -29,6 +29,37 @@ A simple and clean Event Management app built with **Next,js**, **TypeScript**, 
 
 ---
 
+## 📷 Screenshots
+
+### 📃 Event List View
+![Event List](./public/snapshot/eventlist.png)
+
+---
+
+### 📅 Calendar View
+![Calendar View](./public/snapshot/calenderview.png)
+
+---
+
+### 👁️ Event Preview Modal
+![Preview Modal](./public/snapshot/preview.png)
+
+---
+
+### 📝 Add Event 
+![Add Event](./public/snapshot/add.png)
+
+---
+
+### ✏️ Update Event 
+![Update Event](./public/snapshot/update.png)
+
+---
+
+### ✏️ Delete Event 
+![Update Event](./public/snapshot/delete.png)
+
+
 ## 📦 Setup Instructions
 
 To run this project locally:
