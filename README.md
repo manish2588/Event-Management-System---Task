@@ -4,8 +4,7 @@ A simple and clean Event Management app built with **Next,js**, **TypeScript**, 
 
 ## 🚀 Live Demo
 
-🌐 [View Live App](https://event-management-system-task.vercel.app/)  
-
+🌐 [View Live App](https://event-management-system-task.vercel.app/)
 
 ---
 
@@ -16,7 +15,7 @@ A simple and clean Event Management app built with **Next,js**, **TypeScript**, 
 - ✅ View event list with past event highlight
 - ✅ Update event with venue + date conflict validation
 - ✅ Delete events
-
+- ✅ Events details in a Preview Modal
 
 ---
 
@@ -27,7 +26,6 @@ A simple and clean Event Management app built with **Next,js**, **TypeScript**, 
 - SHADCN UI
 - react-hook-form
 - localStorage (for storing Data)
-
 
 ---
 
@@ -46,4 +44,5 @@ cd Event-Management-System---Task
 npm install
 
 # Start the development server
-npm run dev 
+npm run dev
+```
