@@ -134,7 +134,7 @@ const HomePage: React.FC = () => {
             if (!open) setEditingEvent(null);
           }}
           title={editingEvent ? "Edit Event" : "Add New Event"}
-          width="lg"
+          width="md:max-w-[32vw]"
         >
           <EventForm
             dispatch={dispatch}

@@ -44,7 +44,7 @@ export function PreviewButton({ event }: PreviewButtonProps) {
         View
       </Button>
 
-      <Modal open={isOpen} onOpenChange={setIsOpen} title="Event Details" width="2xl">
+      <Modal open={isOpen} onOpenChange={setIsOpen} title="Event Details" width="md:max-w-[50vw]">
         <div className="flex flex-col md:flex-row gap-6 ">
           {/* Image section */}
           <div className="w-full md:w-1/2">

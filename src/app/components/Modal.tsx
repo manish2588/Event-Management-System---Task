@@ -9,10 +9,16 @@ interface ModalProps {
   onOpenChange: (open: boolean) => void;
   title?: string;
   children: ReactNode;
-  width?:string
+  width?: string;
 }
 
-export function Modal({ open, onOpenChange, title, children,width }: ModalProps) {
+export function Modal({
+  open,
+  onOpenChange,
+  title,
+  children,
+  width,
+}: ModalProps) {
   return (
     <Dialog.Root open={open} onOpenChange={onOpenChange}>
       <AnimatePresence>
@@ -34,7 +40,7 @@ export function Modal({ open, onOpenChange, title, children,width }: ModalProps)
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.5 }}
                 transition={{ duration: 0.3, ease: "easeOut" }}
-                className={`fixed z-50 top-[50%] left-[50%] max-h-[85vh] w-[90vw] max-w-${width} -translate-x-1/2 -translate-y-1/2 overflow-auto rounded-md bg-white p-6 shadow-lg focus:outline-none`}
+                className={`fixed z-50 top-[50%] left-[50%] max-h-[85vh] w-[90vw]  ${width} -translate-x-1/2 -translate-y-1/2 overflow-auto rounded-md bg-white p-6 shadow-lg focus:outline-none`}
               >
                 {title && (
                   <Dialog.Title className="text-2xl font-semibold mb-4">
